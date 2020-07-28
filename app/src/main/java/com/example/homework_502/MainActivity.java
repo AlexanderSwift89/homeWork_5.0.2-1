@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intentNotes);
             //return true;
         }
-        
+
         return super.onOptionsItemSelected(item);
     }
 }
