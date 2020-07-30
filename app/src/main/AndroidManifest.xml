@@ -17,6 +17,7 @@ package="com.example.homework_502">
         </intent-filter>
     </activity>
     <activity android:name=".NotesActivity"/>
+    <activity android:name=".SubscribeActivity"/>
 </application>
 
 </manifest>

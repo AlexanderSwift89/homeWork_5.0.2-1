@@ -9,8 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -32,13 +30,37 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_open_notes) {
-            Toast.makeText(MainActivity.this, "Отркыть записную книжку", Toast.LENGTH_LONG).show();
+        if (id == R.id.action_settings) {
+            Toast.makeText(MainActivity.this, "Настройки...", Toast.LENGTH_LONG).show();
+        }else if (id == R.id.action_exit) {
+            Toast.makeText(MainActivity.this, "Выход...", Toast.LENGTH_LONG).show();
+            finish();
+            //return true;
+        }else if (id == R.id.action_subscribe) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Подписки...", Toast.LENGTH_SHORT).show();
+            Intent intentNotes = new Intent(MainActivity.this, SubscribeActivity.class);
+            startActivity(intentNotes);
+        }/*else if (id == R.id.action_photo) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Просмотра фотографий...", Toast.LENGTH_LONG).show();
+            Intent intentNotes = new Intent(MainActivity.this, PhotoActivity.class);
+            startActivity(intentNotes);
+        }else if (id == R.id.action_health) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Мониторинг здоровья...", Toast.LENGTH_LONG).show();
+            Intent intentNotes = new Intent(MainActivity.this, HealthActivity.class);
+            startActivity(intentNotes);
+        }else if (id == R.id.action_payment) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Оплата услуг...", Toast.LENGTH_LONG).show();
+            Intent intentNotes = new Intent(MainActivity.this, PaymentActivity.class);
+            startActivity(intentNotes);
+        }else if (id == R.id.action_input_address) {
+            Toast.makeText(MainActivity.this, "Переход на стрианицу Ваш адрес...", Toast.LENGTH_LONG).show();
+            Intent intentNotes = new Intent(MainActivity.this, AddressActivity.class);
+            startActivity(intentNotes);
+        }*/else if (id == R.id.action_open_notes) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Записная книжка...", Toast.LENGTH_LONG).show();
             Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
             startActivity(intentNotes);
-            //return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

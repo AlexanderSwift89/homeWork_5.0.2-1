@@ -6,12 +6,48 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="Settings"
+        android:title="@string/actionSettings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/actionExit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_subscribe"
+        android:orderInCategory="100"
+        android:title="@string/actionSubscribe"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_photo"
+        android:orderInCategory="100"
+        android:title="@string/actionPhoto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_health"
+        android:orderInCategory="100"
+        android:title="@string/actionHealth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_payment"
+        android:orderInCategory="100"
+        android:title="@string/actionPayment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_input_address"
+        android:orderInCategory="100"
+        android:title="@string/actionInputAddress"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_open_notes"
         android:orderInCategory="100"
-        android:title="Записная книжка"
+        android:title="@string/actionOpenNote"
         app:showAsAction="never" />
 </menu>

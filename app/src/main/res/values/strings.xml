@@ -1,6 +1,40 @@
 <resources>
     <string name="app_name">homeWork_5.0.2</string>
 
+    //поля меню
+    <string name="actionSettings">Настройки</string>
+    <string name="actionExit">Выход</string>
+    <string name="actionSubscribe">Подписка</string>
+    <string name="actionPhoto">Просмотр фотографий</string>
+    <string name="actionHealth">Мониторинг здоровья</string>
+    <string name="actionPayment">Оплата услуг</string>
+    <string name="actionInputAddress">Ввод адреса</string>
+    <string name="actionPlanning">Ввод адреса</string>
+    <string name="actionOpenNote">Записная книжка</string>
+
+    //1. Подписка
+    <string name="app_title">Подписка</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="email_name">Электронная почта</string>
+    <string name="button_ok">OK</string>
+    <string name="button_clear">Очистить</string>
+    <string name="messageOutput">Hello Word!</string>
+    //2. Просмотр фото
+
+    //3. Мониторниг здоровья
+
+    //4. Оплата услуг
+
+    //5. Ввод адреса
+
+    //6. Планировщик
+
+    //7. Ваш адрес
+
+    //8. Записная книжка
     <string name="inputNote">Введите вашу заметку</string>
     <string name="btnSaveNote">Сохранить</string>
+
+
+
 </resources>
