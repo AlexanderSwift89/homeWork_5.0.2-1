@@ -7,8 +7,21 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-        <!-- 1. Подписка -->
+
+    <!-- 1. Подписка -->
         <color name="colorBackground">#E6EDED</color>
         <color name="colorBackgroundText">#80FAFA</color>
         <color name="colorBackgroundButton">#8D9BE8</color>
+
+    <!-- 2. Просмотр фото -->
+        
+    <!-- 3. Мониторинг здоровья -->
+
+    <!-- 4. Оплата услуг -->
+
+    <!-- 5. Ввод адреса -->
+
+    <!-- 6. Планировщик -->
+
+    <!-- 7. Записная книжка -->
 </resources>

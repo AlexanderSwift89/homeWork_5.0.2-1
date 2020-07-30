@@ -19,7 +19,13 @@
     <string name="button_ok">OK</string>
     <string name="button_clear">Очистить</string>
     <string name="messageOutput">Hello Word!</string>
+
     //2. Просмотр фото
+    <string name="btn_back">Назад</string>
+    <string name="btn_forward">Вперед</string>
+    <string name="random_text">Привет Мир!</string>
+    <string name="app_title_photo">Просмотр фото</string>
+    <string name="textLink">http://myfile.org/</string>
 
     //3. Мониторниг здоровья
 

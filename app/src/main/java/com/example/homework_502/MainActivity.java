@@ -40,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Переход на страницу Подписки...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, SubscribeActivity.class);
             startActivity(intentNotes);
-        }/*else if (id == R.id.action_photo) {
-            Toast.makeText(MainActivity.this, "Переход на страницу Просмотра фотографий...", Toast.LENGTH_LONG).show();
+        }else if (id == R.id.action_photo) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Просмотра фотографий...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, PhotoActivity.class);
             startActivity(intentNotes);
-        }else if (id == R.id.action_health) {
+        }/*else if (id == R.id.action_health) {
             Toast.makeText(MainActivity.this, "Переход на страницу Мониторинг здоровья...", Toast.LENGTH_LONG).show();
             Intent intentNotes = new Intent(MainActivity.this, HealthActivity.class);
             startActivity(intentNotes);

@@ -18,6 +18,7 @@ package="com.example.homework_502">
     </activity>
     <activity android:name=".NotesActivity"/>
     <activity android:name=".SubscribeActivity"/>
+    <activity android:name=".PhotoActivity"/>
 </application>
 
 </manifest>
