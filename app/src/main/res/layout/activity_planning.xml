@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/chooseStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/timeOfStart" />
+    <Button
+        android:id="@+id/chooseEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/timeOfEnd" />
+
+    <CalendarView
+        android:id="@+id/startDateCalendar"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center" />
+
+    <CalendarView
+        android:id="@+id/endtDateCalendar"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#E2E2E2"/>
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="OK" />
+</LinearLayout>

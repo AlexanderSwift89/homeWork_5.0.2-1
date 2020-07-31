@@ -85,7 +85,7 @@ public class PressureActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG,"Pressure Back button clicked on the PressureActivity");
-                Intent intent = new Intent(PressureActivity.this, MainActivity.class);
+                Intent intent = new Intent(PressureActivity.this, HealthActivity.class);
                 startActivity(intent);
             }
         });

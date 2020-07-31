@@ -58,7 +58,7 @@ public class LifeWriteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG,"Pressure Back button clicked on the LifeWriteActivity");
-                Intent intent = new Intent(LifeWriteActivity.this, MainActivity.class);
+                Intent intent = new Intent(LifeWriteActivity.this, HealthActivity.class);
                 startActivity(intent);
             }
         });

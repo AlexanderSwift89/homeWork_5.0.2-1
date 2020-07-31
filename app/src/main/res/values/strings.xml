@@ -9,7 +9,7 @@
     <string name="actionHealth">Мониторинг здоровья</string>
     <string name="actionPayment">Оплата услуг</string>
     <string name="actionInputAddress">Ввод адреса</string>
-    <string name="actionPlanning">Ввод адреса</string>
+    <string name="actionPlanning">Планировщик</string>
     <string name="actionOpenNote">Записная книжка</string>
 
     //1. Подписка
@@ -54,13 +54,43 @@
     <string name="back_button">Назад</string>
 
     //4. Оплата услуг
+    <string name="input_money">Ввод денег</string>
+    <string name="information_about_payment">Игформация об оплате</string>
+    <string name="btn_OK">Ок</string>
+    <string name="by_a_card">С банковской карты</string>
+    <string name="by_a_mobile">С мобильного телефона</string>
+    <string name="by_a_cash">Наличными по адресу</string>
 
     //5. Ввод адреса
-
+    <string name="spinner_countries">Показать адрес</string>
+    <string name="spinner_cities">Показать адрес</string>
+    <string name="spinner_number_house">Показать адрес</string>
+    <string name="btn_show_address">Показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
     //6. Планировщик
 
     //7. Ваш адрес
-
+    <string name="timeOfStart">Дата-время старта задачи:</string>
+    <string name="timeOfEnd">Дата-время окончания задачи:</string>
     //8. Записная книжка
     <string name="inputNote">Введите вашу заметку</string>
     <string name="btnSaveNote">Сохранить</string>

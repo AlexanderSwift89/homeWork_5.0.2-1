@@ -51,17 +51,16 @@ public class HealthActivity extends AppCompatActivity {
                             getString(R.string.surname_input) + " " + inputSurnameStr + ": " +
                             getString(R.string.secondName_input) + " " + inputSecondNameStr + ": " +
                             getString(R.string.age_input) + " " + inputAgeStr;
-                    Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(HealthActivity.this, result, Toast.LENGTH_SHORT).show();
                 } catch (NumberFormatException e){
                     e.printStackTrace();
-                    Toast.makeText(MainActivity.this, R.string.incorrect_value, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(HealthActivity.this, R.string.incorrect_value, Toast.LENGTH_SHORT).show();
                 } finally {
                     inputName.getText().clear();
                     inputSurname.getText().clear();
                     inputSecondName.getText().clear();
                     inputAge.getText().clear();
                 }
-
             }
         });
 
@@ -69,7 +68,7 @@ public class HealthActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Log.d(TAG,"PressureData button clicked on the MainActivity");
-                Intent intent = new Intent(MainActivity.this, PressureActivity.class);
+                Intent intent = new Intent(HealthActivity.this, PressureActivity.class);
                 startActivity(intent);
             }
         });
@@ -78,7 +77,7 @@ public class HealthActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Log.d(TAG,"LifeData button clicked on the MainActivity");
-                Intent intent = new Intent(MainActivity.this, LifeWriteActivity.class);
+                Intent intent = new Intent(HealthActivity.this, LifeWriteActivity.class);
                 startActivity(intent);
             }
         });

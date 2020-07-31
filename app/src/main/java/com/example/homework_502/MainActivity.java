@@ -44,20 +44,24 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Переход на страницу Просмотра фотографий...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, PhotoActivity.class);
             startActivity(intentNotes);
-        }/*else if (id == R.id.action_health) {
-            Toast.makeText(MainActivity.this, "Переход на страницу Мониторинг здоровья...", Toast.LENGTH_LONG).show();
+        }else if (id == R.id.action_health) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Мониторинг здоровья...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, HealthActivity.class);
             startActivity(intentNotes);
         }else if (id == R.id.action_payment) {
-            Toast.makeText(MainActivity.this, "Переход на страницу Оплата услуг...", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Переход на страницу Оплата услуг...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, PaymentActivity.class);
             startActivity(intentNotes);
         }else if (id == R.id.action_input_address) {
-            Toast.makeText(MainActivity.this, "Переход на стрианицу Ваш адрес...", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Переход на стрианицу Ваш адрес...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, AddressActivity.class);
             startActivity(intentNotes);
-        }*/else if (id == R.id.action_open_notes) {
-            Toast.makeText(MainActivity.this, "Переход на страницу Записная книжка...", Toast.LENGTH_LONG).show();
+        }else if (id == R.id.action_planner) {
+            Toast.makeText(MainActivity.this, "Переход на стрианицу Планировщика...", Toast.LENGTH_SHORT).show();
+            Intent intentNotes = new Intent(MainActivity.this, PlanningActivity.class);
+            startActivity(intentNotes);
+        }else if (id == R.id.action_open_notes) {
+            Toast.makeText(MainActivity.this, "Переход на страницу Записная книжка...", Toast.LENGTH_SHORT).show();
             Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
             startActivity(intentNotes);
         }
