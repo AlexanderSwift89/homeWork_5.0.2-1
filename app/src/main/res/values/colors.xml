@@ -3,4 +3,23 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    //1. Подписка
+
+    //2. Просмотр фото
+
+    //3. Мониторниг здоровья
+    <color name="backgroundColor">#673AB7</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="btnColor">#00AB00</color>
+
+    //4. Оплата услуг
+
+    //5. Ввод адреса
+
+    //6. Планировщик
+
+    //7. Ваш адрес
+
+    //8. Записная книжка
 </resources>

@@ -28,6 +28,30 @@
     <string name="textLink">http://myfile.org/</string>
 
     //3. Мониторниг здоровья
+    <string name="author_name">Designed by Liapunov Aleksandr</string>
+    <string name="app_title_health">Комплексная система мониторинга здоровья</string>
+    <string name="name_input">Имя</string>
+    <string name="surname_input">Фамилия</string>
+    <string name="secondName_input">Отчество</string>
+    <string name="age_input">Возраст</string>
+    <string name="save_button">Сохранить</string>
+    <string name="pressureData_button">Данные давления</string>
+    <string name="lifeData_button">Жизненные показатели</string>
+    <string name="pActivity_title">Показания давления</string>
+    <string name="upPressure_input">Верхнее давление</string>
+    <string name="lowPressure_input">Нижнее давление</string>
+    <string name="pulse_input">Пульс</string>
+    <string name="tach_checkbox">Тахикардия</string>
+    <string name="data_text">Дата</string>
+    <string name="data_textTitle">Дата:</string>
+    <string name="time_text">Время</string>
+    <string name="time_textTitle">Время:</string>
+    <string name="saveP_button">Сохранить</string>
+    <string name="lifeWrite_title">Жизненные данные</string>
+    <string name="weight_input">Вес</string>
+    <string name="numOfSteps_input">Количество шагов</string>
+    <string name="incorrect_value">Введены неправильные данные</string>
+    <string name="back_button">Назад</string>
 
     //4. Оплата услуг
 

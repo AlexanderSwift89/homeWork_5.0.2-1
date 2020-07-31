@@ -19,6 +19,9 @@ package="com.example.homework_502">
     <activity android:name=".NotesActivity"/>
     <activity android:name=".SubscribeActivity"/>
     <activity android:name=".PhotoActivity"/>
+    <activity android:name=".HealthActivity"/>
+    <activity android:name=".LifeWriteActivity"/>
+    <activity android:name=".PressureActivity"/>
 </application>
 
 </manifest>
